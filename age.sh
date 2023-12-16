@@ -7,7 +7,10 @@ echo Child
 elif [ $a -ge 13 ] && [ $a -le 19 ]
 then
 echo Teenager
-elif [ $a -ge 19 ]
+elif [ $a -ge 19 ] && [ $a -le 60 ]
 then
 echo Adult
+elif [ $a -ge 60 ]
+then
+echo Oldage
 fi
